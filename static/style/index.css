@@ -1,0 +1,78 @@
+@import url("https://fonts.cdnfonts.com/css/helvetica-neue-55");
+
+body {
+  background-color: black;
+  overflow: hidden;
+}
+
+.svg-logo {
+  display: flex;
+  height: 100vh;
+  margin: auto;
+}
+
+.home {
+  font-family: 'Helvetica Neue', sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.home h1 {
+  font-size: 100px;
+  margin-top: 30vh;
+  margin-bottom: 2vh;
+}
+
+.home h3 {
+  font-size: 30px;
+}
+
+.search {
+  width: 45%;
+  height: 50px;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+  border: hidden;
+  font-size: 20px;
+  background-color: rgba(237, 231, 225, 0.1);
+}
+
+::placeholder {
+  color: grey;
+}
+
+.search:focus {
+  border: hidden;
+  outline: none;
+}
+
+@keyframes svg-text-anim {
+  40% {
+    stroke-dashoffset: 0;
+    fill: transparent;
+  }
+  60% {
+    stroke-dashoffset: 0;
+    fill: yellow;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    fill: red;
+  }
+}
+
+span {
+  background: radial-gradient(gray, gray, lightgrey, white);
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animatedTextGradient 1.5s linear infinite;
+}
+
+@keyframes animatedTextGradient {
+  to {
+    background-position: 200% center;
+  }
+}
+
