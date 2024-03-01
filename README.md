@@ -8,11 +8,11 @@ Simple games and proxy website.
 
 #### 1:
 ```
-git clone https://github.com/TacoError/XProxy
+git clone https://github.com/TysonXIT/xpro/
 ```
 #### 2:
 ```
-cd XProxy
+cd Xproxy
 ```
 
 #### 3:
