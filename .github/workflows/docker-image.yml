@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: build
         run: |
           docker build . -t ${{ secrets.DOCKERHUB_USERNAME}}/${{ secrets.DOCKERHUB_NAME}}:latest
