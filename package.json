@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TacoNoBurrito/XProxy.git"
+    "url": "git+https://github.com/TysonXIT/xpro/"
   },
   "keywords": [
     "proxy",
@@ -16,12 +16,12 @@
     "unblocked",
     "censorship"
   ],
-  "author": "TacoError",
+  "author": "TysonXIT",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/TacoNoBurrito/XProxy/issues"
+    "url": "https://github.com/TysonXIT/xpro/issues"
   },
-  "homepage": "https://github.com/TacoNoBurrito/XProxy#readme",
+  "homepage": "https://github.com/TysonXIT/xpro#readme",
   "dependencies": {
     "@titaniumnetwork-dev/ultraviolet": "^2.0.0",
     "@tomphttp/bare-server-node": "^2.0.1",
